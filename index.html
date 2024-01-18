@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud operation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>crud operation</h2>
+
+<label for="nameInput">Name:</label>
+<input type="text" id="nameInput" placeholder="Enter Name">
+
+<label for="yearsInput">Years:</label>
+<input type="number" id="yearsInput" placeholder="Enter Years">
+
+<label for="salaryInput">Salary:</label>
+<input type="number" id="salaryInput" placeholder="Enter Salary">
+
+<label for="pfInput">PF Amount:</label>
+<input type="number" id="pfInput" placeholder="Enter PF Amount">
+
+<button onclick="add()">Add </button>
+
+<table id="taskList">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Years</th>
+            <th>Salary</th>
+            <th>PF Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Tasks will be dynamically inserted here using JavaScript -->
+    </tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

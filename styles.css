@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('background1.jpg.jpg'); /* Replace 'background.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    color: rgb(233, 8, 8);
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgba(221, 230, 220, 0.932);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #099494;
+    text-align: left;
+    padding: 12px;
+}
+
+th {
+    background-color: #3498db;
+    color: rgb(54, 13, 201);
+}
+
+#nameInput, #yearsInput, #salaryInput, #pfInput {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: rgb(40, 12, 163);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.taskItem {
+    background-color: #ecf5eb;
+    transition: background-color 0.3s ease;
+}
+
+.taskItem:hover {
+    background-color: #0b8fa7;
+}
